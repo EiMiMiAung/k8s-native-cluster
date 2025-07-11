@@ -1,3 +1,6 @@
+# cluster setup
+<img width="843" height="909" alt="Screenshot 2025-07-11 at 17 23 12" src="https://github.com/user-attachments/assets/cec37f1f-2233-49e9-b772-46324c61c946" />
+
 # git clone 
 # Go to the directory
    cd k8s-native-cluster
