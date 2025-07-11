@@ -8,7 +8,7 @@
 
 # Hostname set and add master-node(control-plane)
    vagrant ssh ubuntu-cka
-   sudo hostnamectl set-hostname master-node
+   // sudo hostnamectl set-hostname master-node
    vi /etc/hosts
    ### Add hostname list
     192.168.90.87 master-node
@@ -27,7 +27,7 @@ kubectl get nodes
 
 # Hostname set and add worker-node
    vagrant ssh ubuntu-cka1
-   sudo hostnamectl set-hostname worker-1
+   // sudo hostnamectl set-hostname worker-1
    vi /etc/hosts
    ### Add hostname list
     192.168.90.87 master-node
@@ -42,7 +42,7 @@ kubectl get nodes
         
 # Hostname set and add worker-node
    vagrant ssh ubuntu-cka1
-   sudo hostnamectl set-hostname worker-2
+   // sudo hostnamectl set-hostname worker-2
    vi /etc/hosts
    ### Add hostname list
     192.168.90.87 master-node
@@ -57,7 +57,7 @@ kubectl get nodes
 
 # Hostname set and add worker-node
    vagrant ssh ubuntu-cka2
-   sudo hostnamectl set-hostname worker-3
+   // sudo hostnamectl set-hostname worker-3
    vi /etc/hosts
    ### Add hostname list
     192.168.90.87 master-node
