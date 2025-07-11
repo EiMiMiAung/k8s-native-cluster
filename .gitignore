@@ -2,6 +2,7 @@
 .kube/*
 .ssh/*
 .vagrant/*
-.gitignore
-.sudo_as_admin_successful
-.viminfo
+*/.gitignore
+*/.sudo_as_admin_successful
+*/.viminfo
+*/.bash_history
